@@ -56,7 +56,7 @@ p { margin: 0 0 16px; color: var(--muted); }
   .container { padding: 0 18px; }
   .section { padding: 44px 0; }
   .hero { padding: 40px 0 32px; }
-  .page-hero { padding: 32px 0 4px; }
+  .page-hero { padding-top: 32px; padding-bottom: 4px; }
   .cta-band { padding: 36px 22px; border-radius: 18px; }
   .card { padding: 22px; }
   .info-card { padding: 20px; }
@@ -111,7 +111,8 @@ p { margin: 0 0 16px; color: var(--muted); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .brand-name { font-weight: 800; color: var(--navy-dark); font-size: 1.02rem; line-height: 1.15; }
@@ -157,7 +158,7 @@ p { margin: 0 0 16px; color: var(--muted); }
 }
 
 @media (max-width: 640px) {
-  .nav { padding: 10px 0; gap: 8px; flex-wrap: nowrap; }
+  .nav { padding-top: 10px; padding-bottom: 10px; gap: 8px; flex-wrap: nowrap; }
   .brand { gap: 8px; min-width: 0; flex: 1 1 auto; overflow: hidden; }
   .brand img { width: 30px; height: 30px; flex-shrink: 0; }
   .brand-name {
@@ -292,7 +293,7 @@ p { margin: 0 0 16px; color: var(--muted); }
 .foot-legal { max-width: 340px; font-size: 0.85rem; color: #9fb6b1; }
 
 /* ===== Misc pages ===== */
-.page-hero { padding: 48px 0 8px; }
+.page-hero { padding-top: 48px; padding-bottom: 8px; }
 .legal h2 { margin-top: 36px; }
 .legal p, .legal li { color: var(--muted); }
 .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
