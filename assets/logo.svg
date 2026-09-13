@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Venkateshwara Associates logo">
+  <rect width="40" height="40" rx="10" fill="#0f3d3e"/>
+  <path d="M9 27 L16 18 L21 22 L31 10" stroke="#1fa855" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 10 H31 V16" stroke="#1fa855" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
