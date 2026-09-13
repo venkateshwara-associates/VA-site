@@ -41,7 +41,8 @@ p, li, h1, h2, h3, h4 { overflow-wrap: break-word; word-break: break-word; }
 /* Grid children must be allowed to shrink below their content's natural width,
    otherwise a long unbroken string (e.g. an email address) forces the whole
    grid track to overflow the viewport on narrow screens. */
-.grid-2 > *, .grid-3 > *, .contact-grid > *, .footer-grid > *, .hero-grid > *, .process > * {
+.grid-2 > *, .grid-3 > *, .contact-grid > *, .footer-grid > *, .hero-grid > *, .process > *,
+.form-grid > * {
   min-width: 0;
 }
 
@@ -301,9 +302,10 @@ p { margin: 0 0 16px; color: var(--muted); }
 
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 @media (max-width: 640px) { .form-grid { grid-template-columns: 1fr; } }
-.field { display: flex; flex-direction: column; gap: 6px; }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .field label { font-weight: 700; font-size: 0.88rem; color: var(--navy-dark); }
 .field input, .field select, .field textarea {
+  width: 100%; max-width: 100%; min-width: 0; box-sizing: border-box;
   padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; font: inherit; color: var(--ink); background: #fff;
 }
 .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
