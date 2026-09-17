@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://venkateshwarassociates.netlify.app/sitemap.xml
+Sitemap: https://venkateshwaraassociates.com/sitemap.xml
